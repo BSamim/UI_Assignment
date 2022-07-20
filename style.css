@@ -101,6 +101,22 @@
     }
 }
 
+@media (max-width: 414px) {
+    .heading-section h2 {
+        font-size: 30px !important;
+    }
+
+    .video-section .container .heading-section h2 {
+        font-size: 33px !important;
+    }
+}
+
+@media (min-width: 767px) {
+    .gallery-text {
+        display: none;
+    }
+}
+
 * {
     font-family: "Poppins", Arial, sans-serif;
     letter-spacing: 1px;
@@ -322,7 +338,7 @@ button {
 .video-section {
     padding: 8em 0;
     position: relative;
-    width: 100%;
+    width: 100%; 
 }
 
 
@@ -363,6 +379,15 @@ button {
     position: relative;
     z-index: 0;
     margin-bottom: 0px;
+}
+
+.gallery-container .img-gallery .gallery-text{
+    color: rgb(255, 255, 255);
+    text-shadow: #04121a;
+    text-align: left !important;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 0%;
 }
 
 .container-text {
@@ -565,8 +590,17 @@ button {
     line-height: 1.2;
     color: #cf7500;
     position: absolute;
-    top: 22%;
-    left: 25%;
+    top: 23%;
+    left: 24%;
+}
+
+.p-flow .icon i {
+    font-size: 70px;
+    line-height: 1.2;
+    color: #cf7500;
+    position: absolute;
+    top: 18%;
+    left: 30%;
 }
 
 .p-flow .text {
@@ -623,11 +657,11 @@ button {
     width: 100%;
     margin: 0 auto;
     z-index: 0;
-    padding: 30px;
+    padding: 20px;
 }
 
 .blog-entry .text .heading {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 0;
     font-weight: 500;
 }
@@ -656,11 +690,11 @@ button {
     color: #cf7500;
 }
 
-.blog-single h2{
-    font-size: 40px;
-    line-height: 1.2;
-    font-weight: 500;
+.blog-icon {
+    color: #cf7500;
+    padding: 1px;
 }
+
 .block-20 {
     overflow: hidden;
     background-size: cover;
@@ -678,6 +712,8 @@ button {
     width: 100%;
     height: auto;
     position: relative;
+    padding-top: 8% !important;
+    padding-bottom: 8% !important;
   }
 
   .footer-heads{
@@ -699,6 +735,8 @@ button {
   }
   .admin-color {
     color: #267aa4;
+    padding-left: 1px;
+    padding-right: 1px;
   }
   .foot-img {
     border-radius: 5px;
